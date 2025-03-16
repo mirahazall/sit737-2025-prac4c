@@ -19,35 +19,36 @@ Features
  - RESTful API architecture
 
 Setup Instructions
-1. Prerequisites
+-  Prerequisites
 Ensure you have the following installed:
-Node.js (v14+ recommended)
-npm (Node Package Manager)
+* Node.js (v14+ recommended)
+* npm (Node Package Manager)
 
 3. Installation
-Clone the repository and install dependencies:
+- Clone the repository and install dependencies:
 git clone https://github.com/mirahazall/sit737-2025-prac4c
 
-cd sit737-2025-prac4c
+- cd sit737-2025-prac4c
 
-npm install
+- npm install
 
 5. Run the Microservice
-Start the server:
+- Start the server:
 node server.js
 
-The server will run on http://localhost:3000 by default.
+- The server will run on http://localhost:3000 by default.
 
 API Endpoints
 Perform Arithmetic Operations
-POST /add, /subtract, /multiply, /divide, /exponentiate, /modulo, /square-root
-Request Body:
+- POST /add, /subtract, /multiply, /divide, /exponentiate, /modulo, /square-root
+
+- Request Body:
 {
   "number1": 10,
   "number2": 5
 }
 
-Response:
+- Response:
 {
   "result": 15
 }
