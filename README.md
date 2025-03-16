@@ -24,7 +24,7 @@ Ensure you have the following installed:
 * Node.js (v14+ recommended)
 * npm (Node Package Manager)
 
-3. Installation
+ Installation
 - Clone the repository and install dependencies:
 git clone https://github.com/mirahazall/sit737-2025-prac4c
 
@@ -32,14 +32,14 @@ git clone https://github.com/mirahazall/sit737-2025-prac4c
 
 - npm install
 
-5. Run the Microservice
+
+ Run the Microservice
 - Start the server:
 node server.js
 
 - The server will run on http://localhost:3000 by default.
 
-API Endpoints
-Perform Arithmetic Operations
+API Endpoints to Perform Arithmetic Operations
 - POST /add, /subtract, /multiply, /divide, /exponentiate, /modulo, /square-root
 
 - Request Body:
@@ -53,7 +53,7 @@ Perform Arithmetic Operations
   "result": 15
 }
 
-Errors:
+- Errors:
 If either number is missing or invalid, a 400 Bad Request error is returned.
 
 Logging
@@ -62,7 +62,7 @@ info: New addition operation requested: 10 + 5 = 15
 error: Error in division operation: Division by zero is not allowed.
 
 Error Handling
-All endpoints return JSON-formatted error messages when an invalid request is made. Example:
+- All endpoints return JSON-formatted error messages when an invalid request is made. Example:
 {
   "error": "Invalid input. Please provide valid numbers."
 }
