@@ -1,14 +1,14 @@
-Calculator Microservice
+CALCULATOR MICROSERVICE
 
-- This microservice provides REST API endpoints for performing basic and advanced arithmetic operations, including:
+This microservice provides REST API endpoints for performing basic and advanced arithmetic operations, including:
 
-Addition (+)
-Subtraction (-)
-Multiplication (*)
-Division (/)
-Exponentiation (**)
-Modulo (%)
-Square Root (sqrt)
+- Addition (+)
+- Subtraction (-)
+- Multiplication (*)
+- Division (/)
+- Exponentiation (**)
+- Modulo (%)
+- Square Root (sqrt)
 
 The service is built using Node.js and Express.js and includes proper error handling and logging using winston.
 
