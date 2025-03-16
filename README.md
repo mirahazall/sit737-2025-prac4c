@@ -1,6 +1,6 @@
 Calculator Microservice
 
-This microservice provides REST API endpoints for performing basic and advanced arithmetic operations, including:
+- This microservice provides REST API endpoints for performing basic and advanced arithmetic operations, including:
 
 Addition (+)
 Subtraction (-)
@@ -63,7 +63,8 @@ LOGGING:
  - error: Error in division operation: Division by zero is not allowed.
 
 Error Handling:
-- All endpoints return JSON-formatted error messages when an invalid request is made. Example:
+- All endpoints return JSON-formatted error messages when an invalid request is made.
+- Example:
 {
   "error": "Invalid input. Please provide valid numbers."
 }
