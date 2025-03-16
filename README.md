@@ -56,12 +56,13 @@ API Endpoints to Perform Arithmetic Operations
 - Errors:
 If either number is missing or invalid, a 400 Bad Request error is returned.
 
-Logging
-The service logs all operations and errors using winston. Example log entry:
-info: New addition operation requested: 10 + 5 = 15
-error: Error in division operation: Division by zero is not allowed.
+LOGGING: 
+- The service logs all operations and errors using winston.
+- Example log entry:
+ - info: New addition operation requested: 10 + 5 = 15
+ - error: Error in division operation: Division by zero is not allowed.
 
-Error Handling
+Error Handling:
 - All endpoints return JSON-formatted error messages when an invalid request is made. Example:
 {
   "error": "Invalid input. Please provide valid numbers."
