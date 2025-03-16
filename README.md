@@ -29,14 +29,10 @@ Ensure you have the following installed:
 git clone https://github.com/mirahazall/sit737-2025-prac4c
 
 - cd sit737-2025-prac4c
-
 - npm install
-
-
- Run the Microservice
+- Run the Microservice
 - Start the server:
 node server.js
-
 - The server will run on http://localhost:3000 by default.
 
 API EENDPOINTS TO PERFORM ARITHMETIC OPERATIONS:
